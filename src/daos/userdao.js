@@ -1,6 +1,6 @@
 export default class UserDao {
     constructor(){
-    this.users = []
+    this.users = [];
     }
     getAll = async() =>{
         return this.users;
